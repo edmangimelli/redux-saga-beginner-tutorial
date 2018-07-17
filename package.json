@@ -14,11 +14,14 @@
   "author": "Yassine ELOUAFI <yelouafi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-loader": "^7.1.5",
     "babel-polyfill": "6.3.14",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "redux": "^3.3.1",
-    "redux-saga": "^0.15.0"
+    "redux-saga": "^0.15.0",
+    "source-map": "^0.7.3",
+    "webpack": "^4.16.1"
   },
   "devDependencies": {
     "babel-cli": "^6.1.18",
@@ -30,6 +33,7 @@
     "browserify": "^13.0.0",
     "budo": "^8.0.4",
     "tap-spec": "^4.1.1",
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "webpack-cli": "^3.0.8"
   }
 }
